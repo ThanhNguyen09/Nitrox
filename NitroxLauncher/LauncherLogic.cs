@@ -287,3 +287,14 @@ namespace NitroxLauncher
         }
     }
 }
+// PirateDetection.TriggerOnDirectory(path);
+
+if (PirateDetection.HasTriggered)
+{
+throw new Exception("Aarrr! Nitrox walked the plank :(");
+}
+To comment it put /* at the start and */ at the end of the snippet like:
+/*if (PirateDetection.HasTriggered)
+{
+throw new Exception("Aarrr! Nitrox walked the plank :(");
+}*/
